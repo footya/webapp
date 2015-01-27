@@ -1,0 +1,126 @@
+/**
+ * 详细页
+ */
+
+.detail-view .scrollable{
+    padding:10px;
+}
+.detail-view ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.detail-intro {
+    padding: 5px;
+    background-color: #fff;
+}
+.detail-intro h5 {
+    font-weight: 700;
+}
+.detail-intro p {
+    font-size: 12px;
+}
+
+.line-dot-1 {
+    margin: 15px 0;
+    border-bottom: 1px dotted #ffc0c3;
+}
+.line-dot-2 {
+    border-left: 1px dotted #ffc0c3;
+}
+
+.column-box-1,
+.column-box-2 {
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #fff;
+}
+.column-box-tt-1,
+.column-box-tt-2 {
+    padding-bottom: 5px;
+    line-height: 1.2;
+}
+.column-box-tt-2 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.column-box-tt-1 h5,
+.column-box-tt-2 h5 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.column-box-tt-1 h5 {
+    border-left: 3px solid #e85f67;
+    padding-left: 5px;
+}
+.column-box-cc-1 {
+    padding: 10px 8px 0;
+}
+.column-box-cc-2 {
+    padding: 10px 5px 0;
+}
+
+.table-col-1 {
+    width: 100%;
+    line-height: 1.8;
+    font-size: 12px;
+}
+.table-col-1 th,
+.table-col-1 td {
+    border-bottom: 1px dotted #ffc0c3;
+}
+.tar {
+    text-align: right;
+}
+
+.rel-col-list-box {
+    height: 102px;
+    overflow: hidden;
+}
+.rel-col-list {
+    margin-bottom: 0;
+}
+.rel-col-item {
+    margin-bottom: 10px;
+}
+.rel-col-item-content {
+    border: 1px solid #ffc0c3;
+    padding: 5px;
+    background-color: #fff;
+}
+.rel-col-item-img {
+    width: 100%;
+    height: 69px;
+    overflow: hidden;
+}
+.rel-col-item-img img {
+    width: 100%;
+}
+.rel-col-item-name {
+    margin: 5px 0 0;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+/*
+ * 详情-厨具
+ */
+.rel-menu-list {
+    padding: 0;
+}
+.rel-menu-list .menu-pic {
+    padding-left: 8px;
+}
+/*
+ * 详情-菜谱
+ */
+.menu-table-1 .tar {
+    padding-right: 5px;
+}
+.menu-table-1 .line-dot-2 {
+    padding-left: 5px;
+}
+
+.menu-cook-list-item {
+    padding: 5px 0;
+}

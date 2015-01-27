@@ -1,0 +1,11 @@
+
+<ul class="material-list row">
+    <li class="material-item col-xs-4 col-sm-3 col-md-1" ng-repeat="cooker in cookers">
+        <div class="material-item-content">
+            <a href="#/detail/cooker/{{cooker.id}}"><div class="material-item-pic">
+                    <img ng-src="{{picPath}}cooker/cooker_{{cooker.id}}.jpg">
+                </div>
+                <p class="material-item-name">{{cooker.name}}</p></a>
+        </div>
+    </li>
+</ul>

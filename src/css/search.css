@@ -1,0 +1,77 @@
+/**
+ * 推荐菜谱
+ */
+/*菜谱*/
+.menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.menu-list a:link,
+.menu-list a:visited,
+.menu-list a:hover,
+.menu-list a:active{
+    color: #333;
+    text-decoration: none;
+}
+.menu-list-item{
+    border-bottom: 1px solid #f8c7ca;
+    word-break: break-all;
+    word-wrap:break-word;
+    overflow: hidden;
+    height: 100px;
+}
+.menu-pic{
+    float: left;
+    padding: 10px;
+
+}
+.menu-body{
+    margin-top: -5px;
+    padding-top: 10px;
+    margin-left: 140px;
+}
+.menu-title{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.menu-material{
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+/*套餐*/
+.setmenu-list{
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 0;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.setmenu-list-item{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.setmenu-title{
+    position: relative;
+    background: #000;
+    opacity: 0.6;
+    color: #fff;
+    display: block;
+    margin-top: -20px;
+}
+.setmenu-pic{
+    /*max-height: 160px;*/
+    height: 110px;
+    overflow: hidden;
+    width: 100%;
+}
+.search-case{
+    position: relative;
+    display: none;
+    z-index: 1001;
+}

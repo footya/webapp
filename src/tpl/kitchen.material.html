@@ -1,0 +1,33 @@
+<ul class="material-list row">
+    <li class="material-item col-xs-4 col-sm-3 col-md-1 add-btn" ng-show="materials.length > 0">
+        <div class="material-item-content">
+            <a ng-click="searchMenu()">
+                <div class="material-item-pic">
+                    <i class="fa fa-search"></i>
+                </div>
+                <p class="material-item-name">使用现有食材做菜</p>
+            </a>
+        </div>
+    </li>
+    <li class="material-item col-xs-4 col-sm-3 col-md-1" ng-repeat="item in materials">
+        <div class="material-item-content">
+            <a ng-href="#/detail/material/{{item.id}}">
+                <div class="material-item-pic">
+                    <img ng-src="{{picPath}}mater/mater_{{item.id}}.jpg">
+                </div>
+                <p class="material-item-name">{{item.name}}</p>
+            </a>
+        </div>
+    </li>
+    <li class="material-item col-xs-4 col-sm-3 col-md-1 add-btn" ng-hide="materials.length>0">
+        <div class="material-item-content">
+            <a ng-href="#/material/add">
+                <div class="material-item-pic">
+                    <i class="fa fa-plus"></i>
+                </div>
+                <p class="material-item-name">添加食材</p>
+            </a>
+        </div>
+    </li>
+</ul>
+<!-- <button type="button" ng-show="materials.length > 0" class="btn btn-primary fixed-bottom" ng-click="searchMenu()"><i class="fa fa-search"></i>&nbsp;使用现有食材做菜</button> -->

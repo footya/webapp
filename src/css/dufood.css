@@ -1,0 +1,210 @@
+/** * 度美食 css入口文件 */
+@import 'kitchen.css';
+@import 'detail.css';
+@import 'search.css';
+@import 'login.css';
+body,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+}
+.app-body {
+    background: #ffeeef;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+a {
+    color: #333;
+}
+.dufood-body {
+    padding: 10px;
+}
+.dufood-header {
+}
+.dufood-header strong {
+    font-size: 16px;
+}
+
+/* .dufood-header .fa {
+    font-size: 20px;
+}
+*/
+.navbar-app {
+    background: #e85f67;
+    color: #fff;
+    border-color: #f8c7ca;
+}
+.navbar-app .btn,
+.navbar-app .btn-navbar,
+.navbar-app a{
+    color: #fff;
+}
+.dufood-footer {
+    padding-top: 5px;
+    background: #fff;
+    color: #db4e56;
+}
+.dufood-footer .btn,
+.dufood-footer .btn-navbar {
+    color: #fd898f;
+}
+.dufood-footer .btn-navbar:hover,
+.dufood-footer .btn:hover {
+    color: #e8424c;
+}
+.navbar-app .btn-navbar:hover,
+.navbar-app .btn:hover {
+    color: #e8424c;
+}
+.dufood-header .btn-navbar:hover,
+.dufood-header .btn:hover{
+    color: #fff;
+}
+.dufood-footer .btn-navbar {
+    font-size: 12px;
+    line-height: 1.1;
+}
+.dufood-footer .fa {
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+}
+.scrollable-view .scrollable {
+    margin: 40px 0 0;
+    padding: 10px 5px;
+    height: auto;
+}
+.form-control,
+.input-group-addon,
+.btn-default {
+    border-color: #f8c7ca;
+}
+.btn-group>.btn-default.active:hover,
+.btn-group>.btn-default.active,
+.btn-group>.btn-default.active:focus {
+    background-color: #e85f67;
+    border-color: #e85f67;
+}
+.btn-default {
+    color: #db4e56;
+}
+.btn-primary {
+    background: #e85f67;
+    border-color: #e85f67;
+    color: #fff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e8424c;
+    border-color: #e8424c;
+}
+.app-poster {
+    position: relative;
+    z-index: 1200;
+    background: #fff;
+}
+.list-group-item, a.list-group-item {
+    border-color:#f8c7ca;
+}
+
+/*poster 焦点*/
+.poster-point{
+    position: absolute;
+    left: 50%;
+    list-style: none;
+    bottom: 10px;
+    padding: 0;
+    margin-left:-35px;
+}
+.poster-point-item{
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #999;
+}
+.poster-point-item.active{
+    background-color: #ea444b;
+}
+.dufood-footer .btn-group .btn.active{
+    color: #e7353f;
+}
+.app-no-data {
+    line-height: 1.5 !important;
+    text-align: center !important;
+    color: #e85f67 !important;
+}
+.app-no-data .fa {
+    font-size: 200px !important;
+    color: #f8c7ca !important;
+    margin-top: 100px !important;
+}
+.app-no-data p {
+    font-size: 14px !important;
+    color: #f8c7ca !important;
+}

@@ -1,0 +1,163 @@
+{
+    "data": {
+        "menus": [{
+            "id":1567,
+            "name": "西红柿炒鸡蛋（又名，番茄炒鸡蛋）",
+            "imgUrl": "http://cp1.douguo.net/upload/caiku/a/0/9/yuan_a03bec309c0448ca1fd739ef71c70809.jpg",
+            "mainMaterials": [{
+                "material": {
+                    "name": "西红柿",
+                    "id": 4924,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12044,
+                "type": "MAIN",
+                "menuId": 1567,
+                "materialId": 4924,
+                "amount": "一个"
+            }, {
+                "material": {
+                    "name": "鸡蛋",
+                    "id": 3373,
+                    "imgUrl": "http://s2.boohee.cn/house/food_big/1160630022250.jpg",
+                    "createTime": 1418106017000,
+                    "modifyTime": 1418106017000,
+                    "summary": " 鸡蛋被认为是营养丰富的食品，含有蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾等人体所需要的矿物质。 ",
+                    "efficiency": "鸡蛋味甘，性平；具有养心安神，补血，滋阴润燥之功效。",
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12045,
+                "type": "MAIN",
+                "menuId": 1567,
+                "materialId": 3373,
+                "amount": "1个"
+            }],
+            "assistMaterials": [{
+                "material": {
+                    "name": "糖",
+                    "id": 4958,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12046,
+                "type": "ASSIST",
+                "menuId": 1567,
+                "materialId": 4958,
+                "amount": ""
+            }, {
+                "material": {
+                    "name": "盐",
+                    "id": 4928,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12047,
+                "type": "ASSIST",
+                "menuId": 1567,
+                "materialId": 4928,
+                "amount": ""
+            }]
+        }, {
+            "id":1567,
+            "name": "西红柿炒鸡蛋（又名，番茄炒鸡蛋）",
+            "imgUrl": "http://cp1.douguo.net/upload/caiku/a/0/9/yuan_a03bec309c0448ca1fd739ef71c70809.jpg",
+            "mainMaterials": [{
+                "material": {
+                    "name": "西红柿",
+                    "id": 4924,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12044,
+                "type": "MAIN",
+                "menuId": 1567,
+                "materialId": 4924,
+                "amount": "一个"
+            }, {
+                "material": {
+                    "name": "鸡蛋",
+                    "id": 3373,
+                    "imgUrl": "http://s2.boohee.cn/house/food_big/1160630022250.jpg",
+                    "createTime": 1418106017000,
+                    "modifyTime": 1418106017000,
+                    "summary": " 鸡蛋被认为是营养丰富的食品，含有蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾等人体所需要的矿物质。 ",
+                    "efficiency": "鸡蛋味甘，性平；具有养心安神，补血，滋阴润燥之功效。",
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12045,
+                "type": "MAIN",
+                "menuId": 1567,
+                "materialId": 3373,
+                "amount": "1个"
+            }],
+            "assistMaterials": [{
+                "material": {
+                    "name": "糖",
+                    "id": 4958,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12046,
+                "type": "ASSIST",
+                "menuId": 1567,
+                "materialId": 4958,
+                "amount": ""
+            }, {
+                "material": {
+                    "name": "盐",
+                    "id": 4928,
+                    "imgUrl": null,
+                    "createTime": null,
+                    "modifyTime": null,
+                    "summary": null,
+                    "efficiency": null,
+                    "suitableCrowd": null,
+                    "taboo": null,
+                    "pickSkill": null
+                },
+                "id": 12047,
+                "type": "ASSIST",
+                "menuId": 1567,
+                "materialId": 4928,
+                "amount": ""
+            }]
+        }]
+    },
+    "result": "success",
+    "msg": ""
+}

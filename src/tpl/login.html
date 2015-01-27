@@ -1,0 +1,36 @@
+<div class="dufood-body">
+  <div class="scrollable">
+    <div class="scrollable-content login-content">
+      <form class="login-form" role="form" ng-submit='login()'>
+        <fieldset>
+            <div class="form-group">
+              <input type="tel"
+                     ng-model="tel"
+                     class="form-control"
+                     placeholder="请输入您的手机号码">
+            </div>
+        </fieldset>
+        <button class="btn btn-primary btn-block">
+          登录
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- topnavs -->
+<div class="navbar navbar-app navbar-absolute-top dufood-header" content-for="header">
+    <div class="navbar-brand navbar-brand-center">
+      <span>{{page.name}}</span>
+    </div>
+    <div class="navbar-brand pull-left">
+        <strong>度美食</strong>
+    </div>
+</div>
+<!-- /topnavs -->
+<!-- bottomnavs -->
+<div class="navbar navbar-app navbar-absolute-bottom dufood-footer" content-for="footer">
+    <div class="btn-group justified">
+      
+    </div>
+</div>
+<!-- /bottomnavs -->

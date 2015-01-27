@@ -1,0 +1,27 @@
+{"data":{"material": 
+    {"matNutRels":[
+        {"nutName":"热量(大卡)",
+        "id":6920,        
+        "content":11.6,
+        "matId":3848,
+        "nutId":1},
+        {"nutName":"碳水化合物(克)","id":6921,"content":2.7,"matId":3848,"nutId":2},
+        {"nutName":"脂肪(克)","id":6922,"content":0.0,"matId":3848,"nutId":3},
+        {"nutName":"蛋白质(克)","id":6923,"content":0.2,"matId":3848,"nutId":4},
+        {"nutName":"纤维素(克)","id":6924,"content":1.69,"matId":3848,"nutId":5}],
+    "relatedMenu":
+        [{"name":"酱牛肉",  
+          "imgUrl":"http://s2.boohee.cn/house/food_big/1161088025718.jpg"},
+         {"name":"炖牛肉", "imgUrl":"http://s2.boohee.cn/house/food_big/1161088025718.jpg"}],
+    "name":"牛肉(肥瘦)",
+    "id":3848,
+    "imgUrl":"http://s2.boohee.cn/house/food_big/1161088025718.jpg",
+    "createTime":1418106026000,
+    "modifyTime":1418106026000,
+    "summary":" 牛肉是中国人的第二大肉类食品，仅次于猪肉，牛肉蛋白质含量高，而脂肪含量低，所以味道鲜美，受人喜爱，享有“肉中骄子”的美称。 ",
+    "efficiency":"味甘、性平，归脾、胃经；牛肉具有补脾胃、益气血、强筋骨、消水肿等功效。老年人将牛肉与仙人掌同食，可起到抗癌止痛、提高机体免疫功能的效果；牛肉加红枣炖服，则有助肌肉生长和促伤口愈合之功效。",
+    "suitableCrowd":null,
+    "taboo":null,
+    "pickSkill":null}},
+"result":"success",
+"msg":""}

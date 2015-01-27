@@ -1,0 +1,88 @@
+<div class="detail-intro">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <img ng-src="{{picPath}}menu/menu_{{menu.id}}.jpg">
+        </div>
+    </div>
+</div>
+<div class="line-dot-1"></div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>食材</h5></div>
+    <div class="column-box-cc-1">
+        <table class="table-col-1 menu-table-1">
+            <tbody>
+                <tr>
+                    <th colspan="4">主料</th>
+                </tr>
+                <tr ng-repeat="item in menu.mainMaterials">
+                    <td ng-if="$index%2==0">{{item.material.name}}</td>
+                    <td class="tar" ng-if="$index%2==0">{{item.amount}}</td>
+                    <td class="line-dot-2" ng-if="$index%2==0">{{menu.mainMaterials[$index+1].material.name}}</td>
+                    <td class="tar" ng-if="$index%2==0">{{menu.mainMaterials[$index+1].amount}}</td>
+                </tr>
+                <tr>
+                    <th colspan="4">辅料</th>
+                </tr>
+                <tr ng-repeat="item in menu.assistMaterials">
+                    <td ng-if="$index%2==0">{{item.material.name}}</td>
+                    <td class="tar" ng-if="$index%2==0">{{item.amount}}</td>
+                    <td class="line-dot-2" ng-if="$index%2==0">{{menu.assistMaterials[$index+1].material.name}}</td>
+                    <td class="tar" ng-if="$index%2==0">{{menu.assistMaterials[$index+1].amount}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>做法</h5></div>
+    <div class="column-box-cc-1">
+        <ul class="menu-cook-list">
+            <li class="menu-cook-list-item row" ng-repeat="item in menu.steps">
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img ng-src="{{picPath}}section/section_{{item.id}}.jpg">
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-10">
+                    <p>{{$index+1}}、{{item.text}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>小贴士</h5></div>
+    <div class="column-box-cc-1">
+        <p ng-repeat="item in menu.tips">{{$index+1}}、{{item}}</p>
+    </div>
+</div>
+<div class="line-dot-1"></div>
+<div class="column-box-2">
+    <div class="column-box-tt-2 clearfix">
+        <h5 class="pull-left">大家都在做</h5>
+        <!-- <a class="pull-right" href="#">查看全部</a> -->
+    </div>
+    <div class="column-box-cc-2">
+        <div class="rel-col-list-box">
+            <ul class="rel-col-list row">
+                <li class="rel-col-item col-xs-4 col-sm-3 col-md-1">
+                    <a ng-href="#/detail/menu/{{menu.id}}">
+                        <div class="rel-col-item-content">
+                            <div class="rel-col-item-img">
+                                <img ng-src="{{picPath}}menu/menu_{{menu.id}}.jpg">
+                            </div>
+                            <p class="rel-col-item-name">{{menu.name | limitTo:6}}</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- topnavs -->
+<div class="navbar navbar-app navbar-absolute-top dufood-header" content-for="header">
+    <div class="pull-left">
+        <strong><a class="btn" ng-click="goBack()">
+            <i class="fa fa-angle-left"></i>
+        </a>{{menu.name}}</strong>
+    </div>
+</div>
+<!-- /topnavs -->

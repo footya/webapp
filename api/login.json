@@ -1,0 +1,8 @@
+{"data":{"user":
+{"name":null,
+"id":12,"username":null,"status":"ENABLED","password":"123456",
+"authorities":[{"authority":"ROLE_USER"}],"phoneNumber":"13810494799",
+"nameType":"PHONE","enabled":true,"accountNonExpired":true,"accountNonLocked":true,
+"credentialsNonExpired":true,"createTime":1418357031683,
+"modifyTime":1418357031683,"email":null,"sex":null}},
+"result":"success","msg":""}

@@ -1,0 +1,12 @@
+{
+    "data": {
+        "cooker": [{
+            "id": 1,
+            "name": "豆浆机",
+            "imgUrl": "http://s0.nuomi.bdimg.com/upload/deal/2014/10/V_L/2231156-esy5mw4a5d-23479041726116662.jpg",
+            "description": " 豆浆机"
+        }]
+    },
+    "result": "success",
+    "msg": ""
+}

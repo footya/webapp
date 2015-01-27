@@ -1,0 +1,27 @@
+
+<div class="app-no-data" ng-init="channelName = 'home'">
+<i class="fa fa-home"></i>
+<p>敬请期待</p>
+</div>
+<!-- topnavs -->
+<div class="navbar navbar-app navbar-absolute-top dufood-header" content-for="header">
+    <div class="navbar-brand navbar-brand-center">
+      <span>我的首页</span>
+    </div>
+    <div class="pull-left btn-group">
+      <a class="btn" ng-click="goBack()">
+        <i class="fa fa-angle-left"></i>&nbsp;返回
+      </a>
+    </div>
+</div>
+<!-- /topnavs -->
+<!-- bottomnavs -->
+<div class="navbar navbar-app navbar-absolute-bottom dufood-footer" content-for="footer">
+    <div class="btn-group justified">
+      <a href="#/home" class="btn btn-navbar" ng-class="{active:channelName == 'home'}"><i class="fa fa-home fa-navbar"></i>首页</a>
+      <a href="#/kitchen" class="btn btn-navbar" ng-class="{active:channelName == 'kitchen'}"><i class="fa fa-cutlery fa-navbar"></i>厨房</a>
+      <a href="#/garden" class="btn btn-navbar" ng-class="{active:channelName == 'garden'}"><i class="fa fa-leaf fa-navbar"></i>菜园</a>
+      <a href="#/market" class="btn btn-navbar" ng-class="{active:channelName == 'market'}"><i class="fa fa-shopping-cart fa-navbar"></i>集市</a>
+    </div>
+</div>
+<!-- /bottomnavs -->

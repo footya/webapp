@@ -1,0 +1,14 @@
+/**
+ * 登录页
+ */
+
+.login-content {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+.login-content .login-form {
+    padding: 0 10%;
+}

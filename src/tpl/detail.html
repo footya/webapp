@@ -1,0 +1,17 @@
+<div class="dufood-body detail-view">
+    <div class="scrollable">
+        <div class="scrollable-content" >
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
+<!-- bottomnavs -->
+<div class="navbar navbar-app navbar-absolute-bottom dufood-footer" content-for="footer">
+    <div class="btn-group justified">
+      <a href="#/home" class="btn btn-navbar" ng-class="{active:channelName == 'home'}"><i class="fa fa-home fa-navbar"></i>首页</a>
+      <a href="#/kitchen" class="btn btn-navbar" ng-class="{active:channelName == 'kitchen'}"><i class="fa fa-cutlery fa-navbar"></i>厨房</a>
+      <a href="#/garden" class="btn btn-navbar" ng-class="{active:channelName == 'garden'}"><i class="fa fa-leaf fa-navbar"></i>菜园</a>
+      <a href="#/market" class="btn btn-navbar" ng-class="{active:channelName == 'market'}"><i class="fa fa-shopping-cart fa-navbar"></i>集市</a>
+    </div>
+</div>
+<!-- /bottomnavs -->

@@ -1,0 +1,11 @@
+<ul class="setmenu-list row" ng-repeat="setmenu in setmenus" ng-show="setmenus.length > 0">
+    <li class="setmenu-list-item col-md-3 col-sm-3 col-xs-6" ng-repeat="item in setmenu.menus">
+        <a ng-href="#/detail/menu/{{item.id}}">
+            <div class="setmenu-pic">
+                <img ng-src="{{picPath}}menu/menu_{{item.id}}.jpg" class="setmenu-pic" />
+            </div>
+            <div class="setmenu-title">{{item.name | limitTo:9}}</div>
+        </a>
+    </li>
+</ul>
+<div class="app-no-data" ng-hide="menus.length > 0">木有找到啊:(</div>

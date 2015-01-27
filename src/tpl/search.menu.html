@@ -1,0 +1,15 @@
+<ul class="menu-list" ng-show="menus.length > 0">
+    <li class="menu-list-item clearfix" ng-repeat="item in menus">
+        <a ng-href="#/detail/menu/{{item.id}}">
+            <div class="menu-pic">
+                <img ng-src="{{picPath}}menu/menu_{{item.id}}.jpg" width="120" height="80" />
+            </div>
+            <div class="menu-body">
+                <h3 class="menu-title">{{item.name | limitTo:10}}</h3>
+                <p class="menu-material">主料：{{item.main |limitTo:10}}</p>
+                <p class="menu-material">辅料：{{item.accessory | limitTo:22}}</p>
+            </div>
+        </a>
+    </li>
+</ul>
+<div class="app-no-data" ng-hide="menus.length > 0">木有找到啊:(</div>

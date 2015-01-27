@@ -1,0 +1,305 @@
+{
+    "data": {
+        "menuGroups": [{
+            "name": "a",
+            "id": 1,
+            "menus": [{
+                "name": "番茄鸡蛋羹家的味道吗",
+                "id": 1145,
+                "imgUrl": "http://cp1.douguo.net/upload/caiku/c/7/3/yuan_c7da0e7d7c695b0910dbc1198078a983.jpg",
+                "mainMaterials": [{
+                    "material": {
+                        "name": "西红柿",
+                        "id": 4924,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8829,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4924,
+                    "amount": "半个"
+                }, {
+                    "material": {
+                        "name": "鸡蛋",
+                        "id": 3373,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/1160630022250.jpg",
+                        "createTime": 1418106017000,
+                        "modifyTime": 1418106017000,
+                        "summary": " 鸡蛋被认为是营养丰富的食品，含有蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾等人体所需要的矿物质。 ",
+                        "efficiency": "鸡蛋味甘，性平；具有养心安神，补血，滋阴润燥之功效。",
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8830,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 3373,
+                    "amount": "2个"
+                }, {
+                    "material": {
+                        "name": "温水",
+                        "id": 4925,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8831,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4925,
+                    "amount": ""
+                }],
+                "assistMaterials": [{
+                    "material": {
+                        "name": "葱",
+                        "id": 4926,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8832,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 4926,
+                    "amount": "1根"
+                }, {
+                    "material": {
+                        "name": "酱油",
+                        "id": 3318,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/big_photo20102241366.jpg",
+                        "createTime": 1418106016000,
+                        "modifyTime": 1418106016000,
+                        "summary": " 酱油俗称豉油，主要由大豆，淀粉、小麦、食盐经过制油、发酵等程序酿制而成的。酱油的成分比较复杂，除食盐的成分外，还有多种氨基酸、糖类、有机酸、色素及香料民分。以咸味为主，亦有鲜味、香味等。它能增加和改善菜肴的口味，还能增添或改变菜肴的色泽。我国人民在数千年前就已经掌握酿制工艺了。酱油一般有老抽和生抽两种：老抽较咸，用于提色；生抽用于提鲜。 ",
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8833,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 3318,
+                    "amount": "适量"
+                }]
+            },
+            {
+                "name": "番茄鸡蛋羹 家的味道",
+                "id": 1145,
+                "imgUrl": "http://cp1.douguo.net/upload/caiku/c/7/3/yuan_c7da0e7d7c695b0910dbc1198078a983.jpg",
+                "mainMaterials": [{
+                    "material": {
+                        "name": "西红柿",
+                        "id": 4924,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8829,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4924,
+                    "amount": "半个"
+                }, {
+                    "material": {
+                        "name": "鸡蛋",
+                        "id": 3373,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/1160630022250.jpg",
+                        "createTime": 1418106017000,
+                        "modifyTime": 1418106017000,
+                        "summary": " 鸡蛋被认为是营养丰富的食品，含有蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾等人体所需要的矿物质。 ",
+                        "efficiency": "鸡蛋味甘，性平；具有养心安神，补血，滋阴润燥之功效。",
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8830,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 3373,
+                    "amount": "2个"
+                }, {
+                    "material": {
+                        "name": "温水",
+                        "id": 4925,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8831,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4925,
+                    "amount": ""
+                }],
+                "assistMaterials": [{
+                    "material": {
+                        "name": "葱",
+                        "id": 4926,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8832,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 4926,
+                    "amount": "1根"
+                }, {
+                    "material": {
+                        "name": "酱油",
+                        "id": 3318,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/big_photo20102241366.jpg",
+                        "createTime": 1418106016000,
+                        "modifyTime": 1418106016000,
+                        "summary": " 酱油俗称豉油，主要由大豆，淀粉、小麦、食盐经过制油、发酵等程序酿制而成的。酱油的成分比较复杂，除食盐的成分外，还有多种氨基酸、糖类、有机酸、色素及香料民分。以咸味为主，亦有鲜味、香味等。它能增加和改善菜肴的口味，还能增添或改变菜肴的色泽。我国人民在数千年前就已经掌握酿制工艺了。酱油一般有老抽和生抽两种：老抽较咸，用于提色；生抽用于提鲜。 ",
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8833,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 3318,
+                    "amount": "适量"
+                }]
+            }]
+        },
+        {
+            "name": "a",
+            "id": 1,
+            "menus": [{
+                "name": "番茄鸡蛋羹 家的味道",
+                "id": 1145,
+                "imgUrl": "http://cp1.douguo.net/upload/caiku/c/7/3/yuan_c7da0e7d7c695b0910dbc1198078a983.jpg",
+                "mainMaterials": [{
+                    "material": {
+                        "name": "西红柿",
+                        "id": 4924,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8829,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4924,
+                    "amount": "半个"
+                }, {
+                    "material": {
+                        "name": "鸡蛋",
+                        "id": 3373,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/1160630022250.jpg",
+                        "createTime": 1418106017000,
+                        "modifyTime": 1418106017000,
+                        "summary": " 鸡蛋被认为是营养丰富的食品，含有蛋白质、脂肪、卵黄素、卵磷脂、维生素和铁、钙、钾等人体所需要的矿物质。 ",
+                        "efficiency": "鸡蛋味甘，性平；具有养心安神，补血，滋阴润燥之功效。",
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8830,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 3373,
+                    "amount": "2个"
+                }, {
+                    "material": {
+                        "name": "温水",
+                        "id": 4925,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8831,
+                    "type": "MAIN",
+                    "menuId": 1145,
+                    "materialId": 4925,
+                    "amount": ""
+                }],
+                "assistMaterials": [{
+                    "material": {
+                        "name": "葱",
+                        "id": 4926,
+                        "imgUrl": null,
+                        "createTime": null,
+                        "modifyTime": null,
+                        "summary": null,
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8832,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 4926,
+                    "amount": "1根"
+                }, {
+                    "material": {
+                        "name": "酱油",
+                        "id": 3318,
+                        "imgUrl": "http://s2.boohee.cn/house/food_big/big_photo20102241366.jpg",
+                        "createTime": 1418106016000,
+                        "modifyTime": 1418106016000,
+                        "summary": " 酱油俗称豉油，主要由大豆，淀粉、小麦、食盐经过制油、发酵等程序酿制而成的。酱油的成分比较复杂，除食盐的成分外，还有多种氨基酸、糖类、有机酸、色素及香料民分。以咸味为主，亦有鲜味、香味等。它能增加和改善菜肴的口味，还能增添或改变菜肴的色泽。我国人民在数千年前就已经掌握酿制工艺了。酱油一般有老抽和生抽两种：老抽较咸，用于提色；生抽用于提鲜。 ",
+                        "efficiency": null,
+                        "suitableCrowd": null,
+                        "taboo": null,
+                        "pickSkill": null
+                    },
+                    "id": 8833,
+                    "type": "ASSIST",
+                    "menuId": 1145,
+                    "materialId": 3318,
+                    "amount": "适量"
+                }]
+            }]
+        }]
+    },
+    "result": "success",
+    "msg": ""
+}

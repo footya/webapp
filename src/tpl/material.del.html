@@ -1,0 +1,43 @@
+
+  <div class="scrollable material-view">
+    <div class="scrollable-content" >
+      <ul class="material-list row clearfix">
+            <li class="material-item col-xs-4 col-sm-3 col-md-2" ng-repeat="item in myMaterials">
+                <div class="material-item-content" ng-click="select(item.id)" ng-class="{active:has(item.id)}">
+                    <i class="fa select-icon" ng-class="{'fa-check-circle':has(item.id),'fa-check-circle-o':!has(item.id)}"></i>
+                    <div class="material-item-pic"><img ng-src="{{picPath}}mater/mater_{{item.id}}.jpg" ></div>
+                    <p class="material-item-name">{{item.name}}</p>
+                </div>
+            </li>
+            <li class="material-item col-xs-4 col-sm-3 col-md-1 add-btn" ng-hide="myMaterials.length>0">
+                <div class="material-item-content">
+                    <a ng-href="#/material/add" href="#/material/add">
+                        <div class="material-item-pic">
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <p class="material-item-name">添加食材</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+<!-- bottomnavs -->
+<div content-for="footer">
+    <div class="material-edit">
+      <div class="checkbox pull-left">
+          <label>
+            <input type="checkbox" ng-click="selectAll()"  ng-checked="isAll = mySelected.length === myMaterials.length">全选
+          </label>
+          <label>
+            <input type="checkbox" ng-click="inverse()">反选
+          </label>
+      </div>
+      <div class="pull-right">
+          <button type="button" class="btn btn-default" ng-click="delMaterials()">删除({{mySelected.length}})</button>
+      </div>
+    </div>
+</div>
+<!-- /bottomnavs -->
+

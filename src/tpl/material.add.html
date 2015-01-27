@@ -1,0 +1,43 @@
+<div class="input-group material-search">
+  <div class="input-group-addon"><i class="fa fa-search"></i></div>
+  <input class="form-control" type="input" ng-change="search()" ng-model="searchKey">
+  <div class="input-group-addon"><i class="fa fa-microphone"></i>&emsp;<i class="fa fa-camera"></i></div>
+</div>
+<div class="scrollable">
+  <div class="scrollable-content" ui-view>
+    <div class="material-all-list">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2">
+              <ul class="nav material-classes affix-top" >
+                <li class="material-classes-item"
+                 ng-class="{active:currentId == item.id}"
+                 ng-repeat="item in categorys" 
+                 ng-click="update(item.id)">{{item.name}}</li>
+              </ul>
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-10">
+            <ul class="material-list row clearfix" ng-show="currentComponents.length > 0">
+              <li class="material-item col-xs-4 col-sm-3 col-md-2" ng-repeat="item in currentComponents">
+                  <div class="material-item-content" ng-click="select(item.id)" ng-class="{active:has(item.id)}">
+                    <i class="fa select-icon" ng-class="{'fa-check-circle':has(item.id),'fa-check-circle-o':!has(item.id)}"></i>
+                    <div class="material-item-pic">
+                      <img ng-src="{{picPath}}mater/mater_{{item.id}}.jpg">
+                    </div>
+                    <p class="material-item-name">{{item.name}}</p>
+                </div>
+              </li>
+            </ul>
+            <div class="app-no-data" ng-hide="currentComponents.length > 0">木有结果:(</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div content-for="footer">
+    <div class="material-edit">
+      <div class="pull-right">
+          <button type="button" class="btn btn-default" ng-click="addMaterials()">添加({{mySelected.length}})</button>
+      </div>
+    </div>
+</div>

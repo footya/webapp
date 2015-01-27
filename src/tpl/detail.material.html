@@ -1,0 +1,87 @@
+<div class="detail-intro">
+    <div class="row">
+        <div class="col-xs-4 col-sm-3 col-md-2">
+            <img ng-src="{{picPath}}mater/mater_{{material.id}}.jpg">
+        </div>
+        <div class="col-xs-8 col-sm-9 col-md-10">
+            <h5>{{material.name}}</h5>
+            <p>{{material.summary}}</p>
+        </div>
+    </div>
+</div>
+<div class="line-dot-1"></div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>营养构成</h5></div>
+    <div class="column-box-cc-1">
+        <table class="table-col-1">
+            <thead>
+                <tr>
+                    <th>营养素</th>
+                    <th class="tar">含量（每100g）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in material.matNutRels">
+                    <td>{{item.nutName}}</td>
+                    <td class="tar">{{item.content}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>食用效果</h5></div>
+    <div class="column-box-cc-1">
+        {{material.efficiency}}
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>适用人群</h5></div>
+    <div class="column-box-cc-1">
+        {{material.suitableCrowd}}
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>如何挑选</h5></div>
+    <div class="column-box-cc-1">
+        {{material.pickSkill}}
+    </div>
+</div>
+<div class="column-box-1">
+    <div class="column-box-tt-1"><h5>食用禁忌</h5></div>
+    <div class="column-box-cc-1">
+        {{material.taboo}}
+    </div>
+</div>
+<div class="line-dot-1"></div>
+<div class="column-box-2">
+    <div class="column-box-tt-2 clearfix">
+        <h5 class="pull-left">相关菜谱</h5>
+        <!-- <a class="pull-right" href="#">查看全部</a> -->
+    </div>
+    <div class="column-box-cc-2">
+        <div class="rel-col-list-box">
+            <ul class="rel-col-list row">
+                <li class="rel-col-item col-xs-4 col-sm-3 col-md-1" ng-repeat="item in material.relatedMenu | limitTo:3">
+                    <a ng-href="#/detail/menu/{{item.id}}">
+                        <div class="rel-col-item-content">
+                            <div class="rel-col-item-img">
+                                <img ng-src="{{picPath}}mater/mater_{{item.id}}.jpg">
+                            </div>
+                            <p class="rel-col-item-name">{{item.name | limitTo:6}}</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- topnavs -->
+<div class="navbar navbar-app navbar-absolute-top dufood-header" content-for="header">
+    <div class="pull-left">
+        <strong><a class="btn" ng-click="goBack()">
+            <i class="fa fa-angle-left"></i>
+        </a>{{material.name}}</strong>
+    </div>
+</div>
+<!-- /topnavs -->
